@@ -2,6 +2,7 @@
   height: 0px;
   width: 0px;
 }
+
 .regist{
 padding-top: 40px;
 }
@@ -15,7 +16,6 @@ padding-top: 40px;
 .InfoTexto{
   display:inline-grid;
   justify-content: center;
-
 }
 
 .InfoTexto img{
@@ -25,18 +25,24 @@ padding-top: 40px;
 }
 
 .InfoTexto .t1{
-  padding-top: 120px;
+  padding-top: 40px;
   margin-right: 80px;
-  margin-left: 20px;
+  margin-left: 50px;
   font-family: 'Libre Baskerville', serif;
   font-size: 50px;
-  text-align:left;
+  text-align:center;
   color:#696568;
 }
-.InfoTexto .t2{
-  margin-right: 30px;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 25px;
-  text-align: center;
-  text-align:right;
+
+.logotipotrabajador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logotipo{
+  width: 25%;
+  margin: 0;
+  border-radius: 50%;
 }

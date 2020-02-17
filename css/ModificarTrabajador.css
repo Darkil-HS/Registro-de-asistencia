@@ -1,0 +1,54 @@
+.{
+  height: 0px;
+  width: 0px;
+}
+
+.row{
+  margin-top: 15px;
+}
+
+.Texto{
+  display:inline-grid;
+  justify-content: center;
+}
+
+.Texto .t1{
+  padding-top: 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #696568;
+}
+
+.Ingreso{
+margin-top: -30px;
+}
+
+.login{
+  width: 25%;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.fototrabajador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trabajador{
+  width: 25px;
+}
+
+.eliminar{
+  margin-left: 28px;
+}
+
+.Botones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton1{
+  margin-right: 80px;
+}
