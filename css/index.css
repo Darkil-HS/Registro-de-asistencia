@@ -1,0 +1,124 @@
+/*Opciones generales*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Contenedor nav*/
+
+.nav {
+    background-color: darkslategray;
+    -webkit-box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.4);
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.4);
+}
+
+/*Contenedor logo*/
+.box-logo {
+    height: 100px;
+    display: flex;
+}
+
+.media{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 2px ;
+}
+
+
+/*Contenedor opciones*/
+.box-options {
+    display: flex;
+}
+
+.row-options {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.option {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.option a {
+    color: #fbfbfb;
+}
+
+.option a:hover {
+    color : #fefefe;
+    font-size: 22px;
+    transition: 0.2s;
+
+}
+
+.option-1 {
+    padding-left: 95px;
+}
+
+.option-4 {
+    font-size: 37px;
+}
+
+.option-4 i {
+    color: #1f1f1f;
+    transition: 0.4s;
+}
+
+.option-4 i:hover{
+    transition: 0.7s;
+    color : #1a1a1a;
+    font-size: 38px;
+    transition: 0.2s;
+}
+
+
+@media screen and (max-width : 800px) {
+
+    /*Contenedor logo*/
+    .box-logo {
+        height: 45px;
+    }
+
+    .logo {
+        width: 25px;
+    }
+
+    /*Contenedor opciones*/
+    .box-options {
+        padding-bottom: 15px;
+    }
+
+    .option {
+        font-size: 10px;
+    }
+
+    .option-1 {
+        padding-left: 0px;
+    }
+
+    .option-4 {
+        font-size: 20px;
+    }
+}
