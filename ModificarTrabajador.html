@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Modificar datos</title>
-    <link rel="stylesheet" type="text/css" href="css/ModificarTrabajador.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="estilos/ModificarTrabajador.css">
+    <link rel="stylesheet" type="text/css" href="estilos/bootstrap.css">
 
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
@@ -32,17 +32,17 @@
               <tbody>
                 <tr>
                   <td class="fototrabajador">
-                    <img class="trabajador" src="imagenes/login.png" alt="">
+                    <img class="trabajador" src="imagenes/login.png" alt="Foto del trabajador" title="Foto del trabajador">
                   </td>
-                  <td><input class="form-control" type="text" placeholder="74583615" disabled></td>
-                  <td><input class="form-control" type="text" placeholder="Emerson" disabled></td>
-                  <td><input class="form-control" type="text" placeholder="Mendoza Garcia" disabled></td>
-                  <td><input class="form-control" type="text" placeholder="Av.Los Rosales 252"></td>
-                  <td><input class="form-control" type="text" placeholder="954475201"></td>
-                  <td><input class="form-control" type="text" placeholder="14/08/1997" disabled></td>
+                  <td><input name="dni" class="form-control" type="text" placeholder="74583615" disabled></td>
+                  <td><input name="nombre" class="form-control" type="text" placeholder="Emerson" disabled></td>
+                  <td><input name="apellido" class="form-control" type="text" placeholder="Mendoza Garcia" disabled></td>
+                  <td><input name="direccion" class="form-control" type="text" placeholder="Av.Los Rosales 252"></td>
+                  <td><input name="telefono" class="form-control" type="text" placeholder="954475201"></td>
+                  <td><input name="nacimiento" class="form-control" type="text" placeholder="14/08/1997" disabled></td>
                   <td>
-                    <div class="form-check eliminar">
-                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <div class="form-check check">
+                      <input name="validar" class="form-check-input" type="checkbox" id="gridCheck">
                       <label class="form-check-label" for="gridCheck"></label>
                     </div>
                   </td>
@@ -56,9 +56,6 @@
             </div>
         </div>
   </div>
-
-
-
 
   </body>
 </html>
